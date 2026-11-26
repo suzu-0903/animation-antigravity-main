@@ -1,0 +1,22 @@
+{
+  "name": "antigravity-startup-animation",
+  "version": "1.0.0",
+  "description": "Google Antigravity startup animation adapted from panding999/codex-startup-animation, with customizable themes and live wallpaper",
+  "type": "module",
+  "main": "bin/launcher.mjs",
+  "scripts": {
+    "start": "node bin/launcher.mjs",
+    "preview": "node bin/preview-server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "antigravity",
+    "startup-animation",
+    "theme",
+    "anime",
+    "live-wallpaper",
+    "electron"
+  ],
+  "author": "Antigravity Community",
+  "license": "MIT"
+}
